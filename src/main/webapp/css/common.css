@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.introduction {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.autoFontSize {
+	font-size: 10px;
+}
+@media(min-width :400px){
+	.responsive_pic{
+		height: 180px;
+	}
+	
+}
+@media ( min-width :768px) {
+	.autoFontSize {
+		font-size: 10px;
+	}
+	.responsive_pic{
+		height: 180px;
+	}
+}
+
+@media ( min-width :992px) {
+	.autoFontSize {
+		font-size: 16px;
+	}
+	.responsive_pic{
+		height: 240px;
+	}
+}
+
+@media ( min-width :1200px) {
+	.autoFontSize {
+		font-size: 20px;
+	}
+	.responsive_pic{
+		height: 280px;
+	}
+}
